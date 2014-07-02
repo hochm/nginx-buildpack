@@ -27,7 +27,7 @@ erb $APP_ROOT/nginx/conf/orig.conf > $APP_ROOT/nginx/conf/nginx.conf
 
 echo "start metering"
 dir
-$APP_ROOT/setup_meter.sh -i EsrGfsMMUrGFPKHwIt5riG3nxcC:2Ok1ikBuUo6jDrEmRd800Y2KvCY
+$APP_ROOT/setup_meter.sh -i EsrGfsMMUrGFPKHwIt5riG3nxcC:2Ok1ikBuUo6jDrEmRd800Y2KvCY > meterlog.log
 
 
 (tail -f -n 0 $APP_ROOT/nginx/logs/*.log &)
