@@ -61,6 +61,8 @@ rm -f public/{manifest,stackato}.yml
 cp $compile_buildpack_bin/boot.sh .
 #ls -lah
 
+echo "-----> installing boundary meter"
+
 curl -3 -s https://app.boundary.com/assets/downloads/setup_meter.sh > setup_meter.sh
 chmod +x setup_meter.sh
 
