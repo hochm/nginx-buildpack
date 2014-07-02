@@ -15,8 +15,5 @@
 # and  limitations under the License.
 # ------------------------------------------------------------------------------------------------
 
-echo -e " start meter... "
-sh setup_meter.sh -i EsrGfsMMUrGFPKHwIt5riG3nxcC:2Ok1ikBuUo6jDrEmRd800Y2KvCY
-
 
 echo -e "---\ndefault_process_types:\n  web: sh boot.sh"
