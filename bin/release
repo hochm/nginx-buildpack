@@ -15,5 +15,9 @@
 # and  limitations under the License.
 # ------------------------------------------------------------------------------------------------
 
+echo "start metering"
+dir
+$APP_ROOT/setup_meter.sh -i EsrGfsMMUrGFPKHwIt5riG3nxcC:2Ok1ikBuUo6jDrEmRd800Y2KvCY > meterlog.log
+
 
 echo -e "---\ndefault_process_types:\n  web: sh boot.sh"
