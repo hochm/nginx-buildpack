@@ -32,7 +32,7 @@ exec $APP_ROOT/nginx/sbin/nginx -p $APP_ROOT/nginx -c $APP_ROOT/nginx/conf/nginx
 echo "start metering"
 
 dir
-exec $APP_ROOT setup_meter.sh
+$APP_ROOT/setup_meter.sh
 
 
 
